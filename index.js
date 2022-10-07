@@ -1,7 +1,7 @@
 const express = require('express');
 const app= express();
 const mongoose = require('mongoose');
-const port = 3000
+const port = process.env.PORT || 3000
 
 
 mongoose.connect("mongodb+srv://sarshot77:776atlas@cluster0.trc860d.mongodb.net/?retryWrites=true&w=majoritymongodb+srv://sarshot_db:776atlaS@cluster0.k07ck2i.mongodb.net/?retryWrites=true&w=majority")
